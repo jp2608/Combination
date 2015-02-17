@@ -5,9 +5,11 @@ public class Quiz3
 	public static void main(String[] args)
 	{
 		Scanner scan = new Scanner(System.in);
-		System.out.println("This will show numbers 1-7 in ascending and in descneding order");
+		System.out.println("This will show numbers 1-7 in random order then put sort them in ascending and in descneding order");
 		System.out.println("Please Hit Enter to Continue");
 		scan.nextLine();
+		System.out.println("Numbers: " + numbers[0] + "," + numbers[1] + "," + numbers[2] + "," + numbers[3] + "," + numbers[4] + "," 
+		+ numbers[5] + "," + numbers[6]);
 		System.out.println("Numbers in Ascending Order");
 		ascending();
 		System.out.println("Numbers in Descending Order");
